@@ -101,6 +101,7 @@ img{
 }
 
 #navbar ul a{
+    font-weight: bold;
     padding: 0.5rem 0.75rem;
     text-decoration: none;
     margin: 0.2rem;
@@ -190,9 +191,7 @@ img{
     margin: 0.5rem;
 }
 
-#contact .contact-container{
-    display: flex;
-}
+
 
 #contact .contact-form label{
 display: block;
@@ -205,10 +204,7 @@ margin-bottom: 0.2rem;
     width: 100%;
 }
 
-#contact .contact-container *:first-child,
-#contact .contact-container *:last-child{
-    flex: 1;
-}
+
 
 /* footer */
 

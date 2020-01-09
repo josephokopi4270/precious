@@ -30,9 +30,9 @@ $('#navbar a, .btn').on('click', function(event) {
 
     $('html, body').animate(
       {
-        scrollTop: $(hash).offset().top - 100
+        scrollTop: $(hash).offset().top -222
       },
-      800
+      700
     );
   }
 });
