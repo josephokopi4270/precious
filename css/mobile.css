@@ -1,0 +1,39 @@
+#navbar{
+  display: block;
+  text-align: center;
+
+}
+
+#navbar ul  {
+ flex-direction: column;
+}
+
+#navbar ul  li {
+  padding: 0.7rem;
+  border-bottom: 2px #333 dotted;
+}
+
+
+#showcase{
+  padding: 1rem;
+}
+
+#showcase .btn{
+margin-top: 0.5rem;
+}
+
+.box-container{
+  grid-template-columns: 1fr;
+}
+
+#contact .contact-container{
+  display: block;
+}
+
+.footer-box{
+  grid-template-columns: 1fr;
+}
+
+#main-footer .footer-box > *:last-child{
+  grid-column: 1;
+}
